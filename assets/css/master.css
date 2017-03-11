@@ -1,0 +1,22 @@
+.wrap {
+    padding: 150px 200px 50px;
+}
+.wrap hr {
+  width: 8em;
+  border-top: 2px solid #8bc6db;
+}
+.date {
+  font-size: .9em;
+  color: #9a9da4;
+  margin: 0;
+  text-align: center;
+}
+
+.post-title {
+  color: #424652;
+  text-align: center;
+}
+
+.title-block {
+  padding-bottom: 20px;
+}

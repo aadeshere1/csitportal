@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    {% if page.title %}
+      <title>{{ page.title }}</title>
+    {% else %}
+      <title>{{ site.name }}</title>
+    {% endif %}
+
+    {% include meta.html %}
+  </head>
+
+  <body data-spy="scroll">
+    {% include header.html %}
+      {{ content }}
+    {% include footer.html %}
+  </body>
+</html>
