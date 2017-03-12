@@ -1,0 +1,90 @@
+---
+layout: default
+---
+<section id="promo" class="promo section offset-header" style="min-height:100vh;">
+
+  <h3 class="middle">select semester</h3>
+  <div class="container secondary-menu-bar" >
+  <div class="row">
+    <button class="active btn" id="all">-</button>
+    <button class="btn" id="1">i</button>
+    <button class="btn" id="2">ii</button>
+    <button class="btn" id="3">iii</button>
+    <button class="btn" id="4">iv</button>
+    <button class="btn" id="5">v</button>
+    <button class="btn" id="6">vi</button>
+    <button class="btn" id="7">vii</button>
+    <button class="btn" id="8">viii</button>
+  </div>
+  </div>
+  <script>$(document).on('click',function(){$('.collapse').collapse('hide');})</script>
+  <div class="container">
+    <div class="row placeholders " id="parent">
+
+       <div class="col-xs-6 col-sm-3 col-md-4 placeholder 1">
+          <img src="" />
+        </a>
+        <h4 class="middle">microprocessor</h4>
+        <button type="button" class="btn btn-default info" data-toggle="collapse" data-target="1">
+          <span class="caret"></span>
+        </button>
+        <div id="1" class="collapse middle">this is the file for </div>
+      </div>
+      <div class="col-xs-6 col-sm-3 col-md-4 placeholder 2">
+         <img src="" />
+       </a>
+       <h4 class="middle">microprocessor</h4>
+       <button type="button" class="btn btn-default info" data-toggle="collapse" data-target="1">
+         <span class="caret"></span>
+       </button>
+       <div id="2" class="collapse middle">this is the file for </div>
+     </div>
+    </div>
+  </div>
+
+</section><!--//promo-->
+
+
+<style>
+.secondary-menu-bar{
+  margin-bottom: 30px;
+  text-align:center;
+}
+.placeholders {
+  margin-bottom: 30px;
+  text-align: center;
+}
+.placeholders h4 {
+  margin-bottom: 0;
+}
+.placeholder {
+  margin-bottom: 20px;
+}
+.placeholder img {
+  display: inline-block;
+  /* border-radius: 50%; */
+}
+.img-responsive{
+  width:100px;
+}
+
+ /*.placeholder:nth-child(4n + 1) {
+	clear: both;
+ }
+@media (min-width: @screen-xs-max) {
+ .placeholder:nth-child(2n + 1) {
+	clear: both;
+ } } */
+</style>
+<script>
+var $btns = $('.btn').click(function() {
+if (this.id == 'all') {
+  $('#parent > div').fadeIn(450);
+} else {
+  var $el = $('.' + this.id).fadeIn(450);
+  $('#parent > div').not($el).hide();
+}
+$btns.removeClass('active');
+$(this).addClass('active');
+})
+</script>
