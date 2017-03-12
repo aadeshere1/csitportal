@@ -1,8 +1,6 @@
-- tilte: home
-  url: /
-
-- title: about
-  url: /about
-
-- title: blog
-  url: /blog
+- title: About
+  url: '#about'
+  class: scrollto
+- title: Blog
+  url: '/post'
+  class:  scrollto
