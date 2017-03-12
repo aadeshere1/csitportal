@@ -1,5 +1,8 @@
 .wrap {
-    padding: 150px 200px 50px;
+  max-width: 950px;
+  background: #fff;
+  padding: 130px 45px 20px;
+  margin: 0 auto;
 }
 .wrap hr {
   width: 8em;
@@ -19,4 +22,8 @@
 
 .title-block {
   padding-bottom: 20px;
+}
+
+.blog-section {
+  background: #f5f5f5;
 }
