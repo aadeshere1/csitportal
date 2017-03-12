@@ -1,0 +1,61 @@
+---
+layout: default
+---
+<div class="wrap">
+
+  <ul class="cd-accordion-menu animated">
+
+      <li class="has-children"></li>
+      <input type="checkbox" name ="group-x" id="group-x">
+      <label for="group-x">First Semester</label>
+      <ul>
+        {% for item in site.static_files %}
+         {% if item.path contains 'syllabus/first' %}
+         {% assign filename = item.path | replace_first: '/assets/syllabus/first', '' | replace: '/', '' %}
+          <li><a href="{{ item.path }}">{{ filename }}</a></li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+
+    <li class="has-children">
+      <input type="checkbox" name ="group-2" id="group-2">
+      <label for="group-2">Group 2</label>
+
+      <ul>
+        <li><a href="#0">Image</a></li>
+        <li><a href="#0">Image</a></li>
+      </ul>
+    </li>
+
+    <li class="has-children">
+      <input type="checkbox" name ="group-3" id="group-3">
+      <label for="group-3">Group 3</label>
+
+      <ul>
+        <li><a href="#0">Image</a></li>
+        <li><a href="#0">Image</a></li>
+      </ul>
+    </li>
+
+    <li class="has-children">
+      <input type="checkbox" name ="group-4" id="group-4">
+      <label for="group-4">Group 4</label>
+
+      <ul>
+        <li class="has-children">
+          <input type="checkbox" name ="sub-group-3" id="sub-group-3">
+          <label for="sub-group-3">Sub Group 3</label>
+
+            <ul>
+            <li><a href="#0">Image</a></li>
+            <li><a href="#0">Image</a></li>
+          </ul>
+        </li>
+        <li><a href="#0">Image</a></li>
+        <li><a href="#0">Image</a></li>
+      </ul>
+    </li>
+  </ul> <!-- cd-accordion-menu -->
+</div>
+<script src="/assets/js/accordion/jquery-2.1.4.js"></script>
+<script src="/assets/js/accordion/main.js"></script>
