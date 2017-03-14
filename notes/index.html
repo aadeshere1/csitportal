@@ -19,16 +19,16 @@ layout: default
   </div>
   <script>$(document).on('click',function(){$('.collapse').collapse('hide');})</script>
   <div class="container">
-    <div class="row placeholders " id="parent">
+    <div class="row placeholders download" id="parent">
       {% for links in site.data.download %}
-          <div class="col-xs-6 col-sm-3 col-md-4 placeholder {{links.semester}}">
-             <img src="" />
-             </a>
-             <h4 class="middle">{{links.course}}</h4>
-             <button type="button" class="btn btn-default info" data-toggle="collapse" data-target="1">
-               <span class="caret"></span>
-             </button>
-           <div id="1" class="collapse middle">this is the file for </div>
+          <div class="col-xs-6 col-sm-3 col-md-2 placeholder {{links.semester}}">
+            <a href="" title="{{links.description}}">
+
+              <button type="button" class="btn btn-default btn-circle" disabled="disabled"><i class="fa fa-comments-o fa-3x"></i></button>
+            </a>
+            <p class="narrow text-center">
+              {{links.course}}
+            </p>
          </div>
       {% endfor %}
     </div>
