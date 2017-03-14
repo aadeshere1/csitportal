@@ -3,7 +3,7 @@ layout: default
 ---
 <section id="about" class="about section" style="min-height:100vh;">
 
-  <h3 class="middle">select semester</h3>
+  <h3 class="middle"><center>select semester</center></h3>
   <div class="container secondary-menu-bar" >
   <div class="row">
     <button class="active btn" id="all">-</button>
@@ -20,25 +20,17 @@ layout: default
   <script>$(document).on('click',function(){$('.collapse').collapse('hide');})</script>
   <div class="container">
     <div class="row placeholders " id="parent">
-
-       <div class="col-xs-6 col-sm-3 col-md-4 placeholder 1">
-          <img src="" />
-        </a>
-        <h4 class="middle">microprocessor</h4>
-        <button type="button" class="btn btn-default info" data-toggle="collapse" data-target="1">
-          <span class="caret"></span>
-        </button>
-        <div id="1" class="collapse middle">this is the file for </div>
-      </div>
-      <div class="col-xs-6 col-sm-3 col-md-4 placeholder 2">
-         <img src="" />
-       </a>
-       <h4 class="middle">microprocessor</h4>
-       <button type="button" class="btn btn-default info" data-toggle="collapse" data-target="1">
-         <span class="caret"></span>
-       </button>
-       <div id="2" class="collapse middle">this is the file for </div>
-     </div>
+      {% for links in site.data.download %}
+          <div class="col-xs-6 col-sm-3 col-md-4 placeholder {{links.semester}}">
+             <img src="" />
+             </a>
+             <h4 class="middle">{{links.course}}</h4>
+             <button type="button" class="btn btn-default info" data-toggle="collapse" data-target="1">
+               <span class="caret"></span>
+             </button>
+           <div id="1" class="collapse middle">this is the file for </div>
+         </div>
+      {% endfor %}
     </div>
   </div>
 

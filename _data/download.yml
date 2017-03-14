@@ -1,0 +1,12 @@
+- course: microprocessor
+  type: notes
+  semester: 1
+  link: mc.pdf
+- course: calculus
+  type: notes
+  semester: 3
+  link: mc.pdf
+- course: stat
+  type: notes
+  semester: 2
+  link: mc.pdf
