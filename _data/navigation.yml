@@ -2,5 +2,5 @@
   url: '#about'
   class: scrollto
 - title: Blog
-  url: '/post'
-  class:  scrollto
+  url: '/article'
+  class: none
