@@ -2,6 +2,11 @@
   url: '#about'
   class: scrollto
 - title: Blog
+<<<<<<< HEAD
   url: 'article'
 - title: Notes
   permalink: '/notes/'
+=======
+  url: '/article'
+  class: none
+>>>>>>> ade768f0cf44f463d4ff2a973bf452868e0223fb
