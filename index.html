@@ -8,31 +8,31 @@ title: "CSIT Portal"
         <h2 class="title">CSIT<span class="highlight">Portal</span></h2>
         <p class="intro">complete solution(Syllabus,Notes,Questions,Books) for BscCSIT.with free open source tools and linux</p>
         <div class="btns">
-            <a class="btn btn-cta-secondary" href="http://themes.3rdwavemedia.com/" target="_blank">Demo</a>
-            <a class="btn btn-cta-primary" href="http://themes.3rdwavemedia.com/website-templates/devaid-free-bootstrap-theme-developers/" target="_blank">Download</a>
+            <a class="btn btn-cta-secondary" href="{{ "/article" | absolute_url }}" target="_blank">Demo</a>
+            <a class="btn btn-cta-primary" href="{{ "/notes" | absolute_url }}" target="_blank">Download</a>
         </div>
         <ul class="meta list-inline">
-            <li><a href="https://github.com/xriley/devAid-Theme" target="_blank">View on GitHub</a></li>
+            <li><a href="https://github.com/aadeshere1/csitportal" target="_blank">View on GitHub</a></li>
             <li><a href="http://themes.3rdwavemedia.com/website-templates/devaid-free-bootstrap-theme-developers/" target="_blank">Full Documentation</a></li>
-            <li>Created by: <a href="http://themes.3rdwavemedia.com/" target="_blank">Xiaoying Riley</a> at 3rd Wave Media</li>
+            <!-- <li>Created by: <a href="http://themes.3rdwavemedia.com/" target="_blank">Xiaoying Riley</a> at 3rd Wave Media</li> -->
         </ul><!--//meta-->
     </div><!--//container-->
     <div class="social-media">
         <div class="social-media-inner container text-center">
             <ul class="list-inline">
-                <li class="twitter-follow"><a href="https://twitter.com/3rdwave_themes" class="twitter-follow-button" data-show-count="false">Follow @3rdwave_themes</a>
+                <!-- <li class="twitter-follow"><a href="https://twitter.com/3rdwave_themes" class="twitter-follow-button" data-show-count="false">Follow @3rdwave_themes</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-                </li><!--//twitter-follow-->
-                <li class="twitter-tweet">
+                </li><!//twitter-follow-->
+                <!-- <li class="twitter-tweet">
                     <a href="https://twitter.com/share" class="twitter-share-button" data-via="3rdwave_themes" data-hashtags="bootstrap">Tweet</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-                </li><!--//twitter-tweet-->
-                <li class="facebook-like">
+                </li><!//twitter-tweet-->
+                <!-- <li class="facebook-like">
                      <div class="fb-like" data-href="http://themes.3rdwavemedia.com/" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div>
-                </li><!--//facebook-like-->
+                </li><!//facebook-like-->
                 <!--// Generate github buttons: https://github.com/mdo/github-buttons -->
-                <li class="github-star"><iframe src="http://ghbtns.com/github-btn.html?user=mdo&repo=github-buttons&type=watch&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="110" height="20"></iframe></li>
-                <li class="github-fork"><iframe src="http://ghbtns.com/github-btn.html?user=mdo&repo=github-buttons&type=fork" allowtransparency="true" frameborder="0" scrolling="0" width="53" height="20"></iframe></li>
+                <!-- <li class="github-star"><iframe src="http://ghbtns.com/github-btn.html?user=mdo&repo=github-buttons&type=watch&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="110" height="20"></iframe></li> -->
+                <!-- <li class="github-fork"><iframe src="http://ghbtns.com/github-btn.html?user=mdo&repo=github-buttons&type=fork" allowtransparency="true" frameborder="0" scrolling="0" width="53" height="20"></iframe></li> -->
                 <!--//
                 <li class="github-follow"><iframe src="http://ghbtns.com/github-btn.html?user=mdo&type=follow&count=true"
 allowtransparency="true" frameborder="0" scrolling="0" width="165" height="20"></iframe></li>
@@ -114,13 +114,9 @@ allowtransparency="true" frameborder="0" scrolling="0" width="165" height="20"><
         <div class="container text-center">
             <h2 class="title">Events</h2>
             <ul class="feature-list list-unstyled">
-                <li><i class="fa fa-check"></i> Fully responsive</li>
-                <li><i class="fa fa-check"></i> HTML5 + CSS3</li>
-                <li><i class="fa fa-check"></i> Built on <a href="http://getbootstrap.com/" target="_blank">Bootstrap 3.3</a></li>
-                <li><i class="fa fa-check"></i> 400+ FontAwesome icons</li>
-                <li><i class="fa fa-check"></i> 4 colour schemes</li>
-                <li><i class="fa fa-check"></i> LESS files included</li>
-                <li><i class="fa fa-check"></i> Compatible with all modern browsers</li>
+              {% for links in site.data.event %}
+                <li><i class="fa fa-calendar" title="{{links.date}}"></i><a href="{{links.url}}" target="_blank">{{ links.title}}</a> </li>
+              {% endfor %}
             </ul>
         </div><!--//container-->
     </section><!--//features-->
