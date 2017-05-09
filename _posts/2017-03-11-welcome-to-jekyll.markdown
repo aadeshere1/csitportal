@@ -2,6 +2,7 @@
 layout: post
 title:  "Welcome to Jekyll!"
 date:   2017-03-11
+subject: welcome
 categories: jekyll update
 permalink: '/welcome'
 ---
