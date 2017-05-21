@@ -1,0 +1,11 @@
+.download{
+  display: flex;
+}
+.placeholder{
+}
+.touchHelper {
+  width: 96px;
+  height: 96px;
+  display: block;
+  margin: 0 auto;
+}
