@@ -4,3 +4,7 @@
 - title: Blog
   url: '/article'
   class: none
+- title: Notes
+  # permalink: '/notes/'
+  url: '/notes'
+  class: none
