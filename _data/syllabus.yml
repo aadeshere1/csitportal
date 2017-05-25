@@ -2,35 +2,44 @@
   url: '/assets/pdfs/syllabus/1st-sem.pdf'
   class: scrollto
   id: 1
+  description: micro syllabus for first year first semester of BSCcsit.
 - title: second semester
   url: '/assets/pdfs/syllabus/2nd-sem.pdf'
   class: none
   id: 2
+  description: micro syllabus for first year first semester of BSCcsit.
 - title: third semester
   url: '/assets/pdfs/syllabus/3rd-sem.pdf'
   class: none
   id: 3
+  description: micro syllabus for first year first semester of BSCcsit.
 - title: fourth semester
   url: '/assets/pdfs/syllabus/4th-sem.pdf'
   class: none
   id: 4
+  description: micro syllabus for first year first semester of BSCcsit.
 - title: fifth semester
   url: '/assets/pdfs/syllabus/5th-sem.pdf'
   class: scrollto
   id: 5
+  description: micro syllabus for first year first semester of BSCcsit.
 - title: sixth semester
   url: '/assets/pdfs/syllabus/6th-sem.pdf'
   class: none
   id: 6
+  description: micro syllabus for first year first semester of BSCcsit.
 - title: seventh semester
   url: '/assets/pdfs/syllabus/7th-sem.pdf'
   class: none
   id: 7
+  description: micro syllabus for first year first semester of BSCcsit.
 - title: eighth semester
-  url: 'assets/pdfs/syllabus/8th-sem.pdf'
+  url: '/assets/pdfs/syllabus/8th-sem.pdf'
   class: none
   id: 8
+  description: micro syllabus for first year first semester of BSCcsit.
 - title: poject
-  url: 'assets/pdfs/syllabus/ProjectWorkcsc404.pdf'
+  url: '/assets/pdfs/syllabus/ProjectWorkcsc404.pdf'
   class: none
   id: 7
+  description: micro syllabus for first year first semester of BSCcsit.

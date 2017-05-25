@@ -1,0 +1,91 @@
+- course: Fundamentals of Computer Programming
+  title: c
+  id: 1
+  icon: fa-code
+  url: '/assets/pdfs/notes/first/c-i.pdf'
+- course: Fundamentals of Computer Programming
+  title: c
+  id: 1
+  icon: fa-code
+  link: mc.pdf
+  url: '/assets/pdfs/notes/first/c-ii.pdf'
+- course: Fundamentals of Computer Programming
+  title: c
+  id: 1
+  icon: fa-code
+  url: '/assets/pdfs/notes/first/c.pdf'
+- course: Digital Logic
+  title: Digital Logic
+  id: 2
+  icon: fa-lightbulb-o
+  url: '/assets/pdfs/notes/second/dl.pdf'
+- course: Digital Logic
+  title: Digital Logic
+  id: 2
+  icon: fa-lightbulb-o
+  url: '/assets/pdfs/notes/second/dl-i.pdf'
+- course: Digital Logic
+  title: Digital Logic
+  id: 2
+  icon: fa-lightbulb-o
+  url: '/assets/pdfs/notes/second/dl-i.pdf'
+- course: Discrete Structure
+  title: Discrete Structure
+  id: 2
+  icon: fa-puzzle-piece
+  url: '/assets/pdfs/notes/second/ds.pdf'
+- course: Discrete Structure
+  title: Discrete Structure
+  id: 2
+  icon: fa-puzzle-piece
+  url: '/assets/pdfs/notes/second/ds-i.pdf'
+- course: Data Structures and Algorithms
+  title: dsa
+  id: 2
+  icon: fa-spinner
+  url: '/assets/pdfs/notes/second/dsa.pdf'
+- course: Data Structures and Algorithms
+  title: dsa
+  id: 2
+  icon: fa-spinner
+  url: '/assets/pdfs/notes/second/dsa-i.pdf'
+- course: Data Structures and Algorithms
+  title: dsa
+  id: 2
+  icon: fa-spinner
+  url: '/assets/pdfs/notes/second/dsa-ii.pdf'
+- course: Microprocessor
+  title: Microprocessor
+  id: 2
+  icon: fa-spinner
+  url: '/assets/pdfs/notes/second/mp-i.pdf'
+- course: Microprocessor
+  title: Microprocessor
+  id: 2
+  icon: fa-microchip
+  url: '/assets/pdfs/notes/second/mp.pdf'
+- course: Computer Architecture
+  title: C.Arch
+  id: 3
+  icon:
+  url: '/assets/pdfs/notes/third/ca-i.pdf'
+- course: Computer Architecture
+  title: C.Arch
+  id: 3
+  icon:
+  url: '/assets/pdfs/notes/second/ca.pdf'
+- course: Object Oriented Programming
+  title: CPP
+  id: 3
+  icon:
+  url: '/assets/pdfs/notes/second/cpp.pdf'
+- course: Object Oriented Programming
+  title: CPP
+  id: 3
+  icon:
+  url: '/assets/pdfs/notes/second/cpp-i.pdf'
+- course: Object Oriented Programming
+  title: CPP
+  id: 3
+  icon:
+  url: '/assets/pdfs/notes/second/cpp-ii.pdf'
