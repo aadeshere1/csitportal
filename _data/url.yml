@@ -1,0 +1,19 @@
+- title: Notes
+  # permalink: '/notes/'
+  url: '/notes'
+  class: none
+- title: Apps
+  # permalink: '/notes/'
+  url: '/apps'
+  class: none
+- title: Syllabus
+  # permalink: '/notes/'
+  url: '/syllabus'
+  class: none
+- title: Question
+  # permalink: '/notes/'
+  url: '/question'
+  class: none
+- title: Blog
+  url: '/article'
+  class: none

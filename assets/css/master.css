@@ -346,3 +346,33 @@ ol, ul {
 .meta a:hover {
     color: rgba(0, 0, 0, .87);
 }
+.download-logo {
+  background: #074f66;
+  -moz-border-radius: 100%;
+  -webkit-border-radius: 100%;
+  border-radius: 100%;
+  margin: 2em auto;
+  position: relative;
+  text-align: center;
+  width: 7em;
+  height: 7em;
+}
+.download-logo:after {
+  content: "";
+  border: .1em dashed #fff;
+  -moz-border-radius: 100%;
+  -webkit-border-radius: 100%;
+  border-radius: 100%;
+  position: absolute;
+  top: .2em;
+  left: .2em;
+  width: 6.5em;
+  height: 6.5em;
+}
+
+.number {
+  color: white;
+  padding-top: .8em;
+  font-size: 2.5em;
+  font-family: 'Anton', sans-serif;
+}

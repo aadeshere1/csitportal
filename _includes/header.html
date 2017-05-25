@@ -17,9 +17,13 @@
                 </div><!--//navbar-header-->
                 <div class="navbar-collapse collapse" id="navbar-collapse">
                     <ul class="nav navbar-nav">
-                      {% for item in site.data.navigation %}
+                      {% if page.url == "/" %}
+                        {% for item in site.data.navigation %}
+                          <li class="nav-item"><a class={{ item.class }} href={{ item.url }}>{{ item.title}}</a></li>
+                        {% endfor %}
+                      {% endif %}
+                      {% for item in site.data.url %}
                         <li class="nav-item"><a class={{ item.class }} href={{ item.url }}>{{ item.title}}</a></li>
-
                       {% endfor %}
                         <!-- <li class="active nav-item sr-only"><a class="scrollto" href="#promo">Home</a></li>
                         <li class="nav-item"><a class="scrollto" href="#features">Features</a></li>

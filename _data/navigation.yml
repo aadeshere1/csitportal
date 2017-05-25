@@ -1,10 +1,12 @@
 - title: About
   url: '#about'
   class: scrollto
-- title: Blog
-  url: '/article'
+- title: Events
+  url: '#features'
   class: none
-- title: Notes
-  # permalink: '/notes/'
-  url: '/notes'
+- title: News
+  url: '#docs'
+  class: none
+- title: Connect
+  url: '#contact'
   class: none

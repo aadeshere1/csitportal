@@ -1,0 +1,36 @@
+- title: first semester
+  url: '/assets/pdfs/syllabus/1st-sem.pdf'
+  class: scrollto
+  id: 1
+- title: second semester
+  url: '/assets/pdfs/syllabus/2nd-sem.pdf'
+  class: none
+  id: 2
+- title: third semester
+  url: '/assets/pdfs/syllabus/3rd-sem.pdf'
+  class: none
+  id: 3
+- title: fourth semester
+  url: '/assets/pdfs/syllabus/4th-sem.pdf'
+  class: none
+  id: 4
+- title: fifth semester
+  url: '/assets/pdfs/syllabus/5th-sem.pdf'
+  class: scrollto
+  id: 5
+- title: sixth semester
+  url: '/assets/pdfs/syllabus/6th-sem.pdf'
+  class: none
+  id: 6
+- title: seventh semester
+  url: '/assets/pdfs/syllabus/7th-sem.pdf'
+  class: none
+  id: 7
+- title: eighth semester
+  url: 'assets/pdfs/syllabus/8th-sem.pdf'
+  class: none
+  id: 8
+- title: poject
+  url: 'assets/pdfs/syllabus/ProjectWorkcsc404.pdf'
+  class: none
+  id: 7

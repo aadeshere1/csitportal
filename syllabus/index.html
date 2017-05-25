@@ -1,61 +1,87 @@
 ---
 layout: default
 ---
-<div class="wrap">
+<section id="about" class="about section" style="min-height:100vh;">
 
-  <ul class="cd-accordion-menu animated">
+  <h3 class="middle"><center>select semester</center></h3>
+  <div class="container secondary-menu-bar" >
+  <div class="row">
+    <button class="active btn" id="all">-</button>
+    <button class="btn" id="1">i</button>
+    <button class="btn" id="2">ii</button>
+    <button class="btn" id="3">iii</button>
+    <button class="btn" id="4">iv</button>
+    <button class="btn" id="5">v</button>
+    <button class="btn" id="6">vi</button>
+    <button class="btn" id="7">vii</button>
+    <button class="btn" id="8">viii</button>
+  </div>
+  </div>
+  <script>$(document).on('click',function(){$('.collapse').collapse('hide');})</script>
+  <div class="container">
+    <div class="placeholders download" id="parent">
+      {% for links in site.data.syllabus %}
+          <div class="col-md-2 placeholder {{links.id}}">
+            <a href="{{links.url}}" title="{{links.title}}" target="_blank">
 
-      <li class="has-children"></li>
-      <input type="checkbox" name ="group-x" id="group-x">
-      <label for="group-x">First Semester</label>
-      <ul>
-        {% for item in site.static_files %}
-         {% if item.path contains 'syllabus/first' %}
-         {% assign filename = item.path | replace_first: '/assets/syllabus/first', '' | replace: '/', '' %}
-          <li><a href="{{ item.path }}">{{ filename }}</a></li>
-          {% endif %}
-        {% endfor %}
-      </ul>
+              <div class="download-logo">
+                   <!-- <i class="fa fa-comments-o fa-3x"></i> -->
+                   <div class="number">{{links.id}}</div>
 
-    <li class="has-children">
-      <input type="checkbox" name ="group-2" id="group-2">
-      <label for="group-2">Group 2</label>
 
-      <ul>
-        <li><a href="#0">Image</a></li>
-        <li><a href="#0">Image</a></li>
-      </ul>
-    </li>
+              </div>
+            </a>
 
-    <li class="has-children">
-      <input type="checkbox" name ="group-3" id="group-3">
-      <label for="group-3">Group 3</label>
+              <p class="narrow text-center">
+                {{links.title}}
+              </p>
+         </div>
+      {% endfor %}
+    </div>
+  </div>
+</section><!--//promo-->
 
-      <ul>
-        <li><a href="#0">Image</a></li>
-        <li><a href="#0">Image</a></li>
-      </ul>
-    </li>
 
-    <li class="has-children">
-      <input type="checkbox" name ="group-4" id="group-4">
-      <label for="group-4">Group 4</label>
+<style>
+.secondary-menu-bar{
+  margin-bottom: 30px;
+  text-align:center;
+}
+.placeholders {
+  margin-bottom: 30px;
+  text-align: center;
+}
+.placeholders h4 {
+  margin-bottom: 0;
+}
+.placeholder {
+  margin-bottom: 20px;
+}
+.placeholder img {
+  display: inline-block;
+  /* border-radius: 50%; */
+}
+.img-responsive{
+  width:100px;
+}
 
-      <ul>
-        <li class="has-children">
-          <input type="checkbox" name ="sub-group-3" id="sub-group-3">
-          <label for="sub-group-3">Sub Group 3</label>
-
-            <ul>
-            <li><a href="#0">Image</a></li>
-            <li><a href="#0">Image</a></li>
-          </ul>
-        </li>
-        <li><a href="#0">Image</a></li>
-        <li><a href="#0">Image</a></li>
-      </ul>
-    </li>
-  </ul> <!-- cd-accordion-menu -->
-</div>
-<script src="/assets/js/accordion/jquery-2.1.4.js"></script>
-<script src="/assets/js/accordion/main.js"></script>
+ /*.placeholder:nth-child(4n + 1) {
+	clear: both;
+ }
+@media (min-width: @screen-xs-max) {
+ .placeholder:nth-child(2n + 1) {
+	clear: both;
+ } } */
+</style>
+<script>
+var $btns = $('.btn').click(function() {
+if (this.id == 'all') {
+  $('#parent > div').fadeIn(450);
+} else {
+  var $el = $('.' + this.id).fadeIn(450);
+  $('#parent > div').not($el).hide();
+}
+$btns.removeClass('active');
+$(this).addClass('active');
+})
+</script>
