@@ -73,19 +73,254 @@
   title: C.Arch
   id: 3
   icon:
-  url: '/assets/pdfs/notes/second/ca.pdf'
+  url: '/assets/pdfs/notes/third/ca.pdf'
 - course: Object Oriented Programming
   title: CPP
   id: 3
   icon:
-  url: '/assets/pdfs/notes/second/cpp.pdf'
+  url: '/assets/pdfs/notes/third/cpp.pdf'
 - course: Object Oriented Programming
   title: CPP
   id: 3
   icon:
-  url: '/assets/pdfs/notes/second/cpp-i.pdf'
+  url: '/assets/pdfs/notes/third/cpp-i.pdf'
 - course: Object Oriented Programming
   title: CPP
   id: 3
   icon:
-  url: '/assets/pdfs/notes/second/cpp-ii.pdf'
+  url: '/assets/pdfs/notes/third/cpp-ii.pdf'
+- course:  Introduction to Management
+  title: mgmt
+  id: 3
+  icon:
+  url: '/assets/pdfs/notes/third/mgmt.pdf'
+- course:  Numerical Method
+  title: nm
+  id: 3
+  icon:
+  url: '/assets/pdfs/notes/third/nm.pdf'
+- course:  Operating Systems
+  title: os
+  id: 3
+  icon:
+  url: '/assets/pdfs/notes/third/os.pdf'
+- course:  Operating Systems
+  title: os
+  id: 3
+  icon:
+  url: '/assets/pdfs/notes/third/os-i.pdf'
+- course:  Operating Systems
+  title: os
+  id: 3
+  icon:
+  url: '/assets/pdfs/notes/third/os-ii.pdf'
+- course:  Computer Graphics
+  title: cg
+  id: 4
+  icon:
+  url: '/assets/pdfs/notes/fourth/cg.pdf'
+- course:  Computer Graphics
+  title: cg
+  id: 4
+  icon:
+  url: '/assets/pdfs/notes/fourth/cg-i.pdf'
+- course:   Introduction to Cognitive Science
+  title: cs
+  id: 4
+  icon:
+  url: '/assets/pdfs/notes/fourth/cs.pdf'
+- course:   Database Management System
+  title: CPP
+  id: 4
+  icon:
+  url: '/assets/pdfs/notes/fourth/dbms.pdf'
+- course:   System Analysis and Design
+  title: sad
+  id: 4
+  icon:
+  url: '/assets/pdfs/notes/fourth/sad.pdf'
+- course:   Introduction to Cognitive Science
+  title: cs
+  id: 4
+  icon:
+  url: '/assets/pdfs/notes/fourth/cs.pdf'
+- course:   Theory of Computation
+  title: toc
+  id: 4
+  icon:
+  url: '/assets/pdfs/notes/fourth/toc.pdf'
+- course:   Theory of Computation
+  title: toc
+  id: 4
+  icon:
+  url: '/assets/pdfs/notes/fourth/toc-i.pdf'
+- course:   Artificical intellegence
+  title: ai
+  id: 5
+  icon:
+  url: '/assets/pdfs/notes/fifth/ai.pdf'
+- course:   Computer Networks
+  title: cn
+  id: 5
+  icon:
+  url: '/assets/pdfs/notes/fifth/cn.pdf'
+- course:   Computer Networks
+  title: cn
+  id: 5
+  icon:
+  url: '/assets/pdfs/notes/fifth/cn-i.pdf'
+- course:   Introduction to Cryptography
+  title: crypto
+  id: 5
+  icon:
+  url: '/assets/pdfs/notes/fifth/crypto.pdf'
+- course:   Design and Analysis of Algorithms
+  title: daa
+  id: 5
+  icon:
+  url: '/assets/pdfs/notes/fifth/daa.pdf'
+- course:   Design and Analysis of Algorithms
+  title: daa
+  id: 5
+  icon:
+  url: '/assets/pdfs/notes/fifth/daa-i.pdf'
+- course:   Design and Analysis of Algorithms
+  title: daa
+  id: 5
+  icon:
+  url: '/assets/pdfs/notes/fifth/daa-ii.pdf'
+- course:    E-Governance
+  title: e-gov
+  id: 5
+  icon:
+  url: '/assets/pdfs/notes/fifth/e-gov.pdf'
+- course:   Simulation and Modeling
+  title: sim
+  id: 5
+  icon:
+  url: '/assets/pdfs/notes/fifth/sim.pdf'
+- course:    Concepts of Wireless Networking
+  title: wireless
+  id: 5
+  icon:  fa-wifi
+  url: '/assets/pdfs/notes/fifth/wireless.pdf'
+- course:    Complier Design and Construction
+  title: compiler
+  id: 6
+  icon:
+  url: '/assets/pdfs/notes/sixth/compiler.pdf'
+- course: Fundamentals of E-Commerce
+  title: e-commerce
+  id: 6
+  icon: fa-shopping-cart
+  url: '/assets/pdfs/notes/sixth/e-commerce.pdf'
+- course: Fundamentals of E-Commerce
+  title: e-commerce
+  id: 6
+  icon: fa-shopping-cart
+  url: '/assets/pdfs/notes/sixth/e-commerce-1.pdf'
+- course:     Image Processing
+  title: ip
+  id: 6
+  icon:
+  url: '/assets/pdfs/notes/sixth/ip.pdf'
+- course:     Image Processing
+  title: ip
+  id: 6
+  icon:
+  url: '/assets/pdfs/notes/sixth/ip=i.pdf'
+- course:     Net Centric Computing
+  title: netcentric
+  id: 6
+  icon:
+  url: '/assets/pdfs/notes/sixth/netcentric.pdf'
+- course: Real Time System
+  title: rts
+  id: 6
+  icon:  fa-clock-o
+  url: '/assets/pdfs/notes/sixth/rts.pdf'
+- course: Real Time System
+  title: rts
+  id: 6
+  icon:  fa-clock-o
+  url: '/assets/pdfs/notes/sixth/rts-i.pdf'
+- course: Real Time System
+  title: rts
+  id: 6
+  icon:  fa-clock-o
+  url: '/assets/pdfs/notes/sixth/rts-ii.pdf'
+- course: Software Engineering
+  title: se
+  id: 6
+  icon: fa-rocket
+  url: '/assets/pdfs/notes/sixth/se.pdf'
+- course: Software Engineering
+  title: se
+  id: 6
+  icon: fa-rocket
+  url: '/assets/pdfs/notes/sixth/se-i.pdf'
+- course: Software Engineering
+  title: se
+  id: 6
+  icon: fa-rocket
+  url: '/assets/pdfs/notes/sixth/se-ii.pdf'
+- course: Software Engineering
+  title: se
+  id: 6
+  icon: fa-rocket
+  url: '/assets/pdfs/notes/sixth/se-iii.pdf'
+- course: Web Technologies
+  title: web_tech
+  id: 6
+  icon: fa-snowflake-o
+  url: '/assets/pdfs/notes/sixth/web_tech.pdf'
+- course: Web Technologies
+  title: web_tech
+  id: 6
+  icon: fa-snowflake-o
+  url: '/assets/pdfs/notes/sixth/web_tech-i.pdf'
+- course: Advanced Database Management System
+  title: adbms
+  id: 7
+  icon: fa-table
+  url: '/assets/pdfs/notes/seventh/adbms.pdf'
+- course: Advanced Database Management System
+  title: adbms
+  id: 7
+  icon: fa-table
+  url: '/assets/pdfs/notes/seventh/adbms-i.pdf'
+- course: Information Retrieval
+  title: ir
+  id: 7
+  icon: fa-info
+  url: '/assets/pdfs/notes/seventh/ir.pdf'
+- course: Internet Technology
+  title: it
+  id: 7
+  icon: fa-internet-explorer
+  url: '/assets/pdfs/notes/seventh/it.pdf'
+- course: Internet Technology
+  title: it
+  id: 7
+  icon: fa-internet-explorer
+  url: '/assets/pdfs/notes/seventh/it-i.pdf'
+- course: Internet Technology
+  title: it
+  id: 7
+  icon: fa-internet-explorer
+  url: '/assets/pdfs/notes/seventh/it-ii.pdf'
+- course: Advanced Java Programming
+  title: java
+  id: 7
+  icon: fa-coffee
+  url: '/assets/pdfs/notes/seventh/java.pdf'
+- course: Database Administration
+  title: oracle
+  id: 7
+  icon: fa-database
+  url: '/assets/pdfs/notes/seventh/oracle.pdf'
+- course: Database Administration
+  title: oracle
+  id: 7
+  icon: fa-database
+  url: '/assets/pdfs/notes/seventh/oracle-i.pdf'

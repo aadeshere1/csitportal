@@ -1,0 +1,65 @@
+- title: Inkscape
+  url: 'https://www.rollapp.com/launch/inkscape'
+  class: none
+  id: 1
+  description: Inkscape is an open-source vector graphics editor similar to Adobe Illustrator, Corel Draw, Freehand, or Xara X. What sets Inkscape apart is its use of Scalable Vector Graphics (SVG), an open XML-based W3C standard, as the native format..
+- title: LibreOffice
+  url: 'https://www.rollapp.com/launch/lowriter'
+  class: none
+  id: 2
+  description: LibreOffice is Free and Open Source Software. Development is open to new talent and new ideas, and our software is tested and used daily by a large and devoted user community..
+- title: blender
+  url: 'https://www.rollapp.com/app/blender'
+  class: none
+  id: 3
+  description: Blender is the free and open source 3D creation suite. It supports the entirety of the 3D pipeline—modeling, rigging, animation, simulation, rendering, compositing and motion tracking, even video editing and game creation.
+- title: prolog
+  url: 'http://www.swi-prolog.org/'
+  class: none
+  id: 4
+  description: SWI-Prolog is a versatile implementation of the Prolog language. Its robust multi-threading, extended data types, unbounded arithmetic and Unicode representation of text allow for natural representation of documents (e.g., XML, JSON, RDF) and exchange of data with other programming paradigms.
+- title: Atom
+  url: 'https://www.rollapp.com/app/atom'
+  class: none
+  id: 5
+  description: Atom is a text editor that's modern, approachable, yet hackable to the core—a tool you can customize to do anything but also use productively without ever touching a config file.
+- title: Cisco
+  url: 'http://www.cisco.com/'
+  class: none
+  id: 6
+  description: Cisco is the worldwide leader in IT and networking. Which help companies of all sizes transform how people connect, communicate, and collaborate.
+- title: emu8086
+  url: 'http://www.emu8086.com/'
+  class: none
+  id: 7
+  description: 8086 assembler and microprocessor emulator. Study computer arhitecture and assembly language programming. Emulate hardware, screen, memory.
+- title: Mysql
+  url: 'https://www.rollapp.com/app/mysqlworkbench'
+  class: none
+  id: 8
+  description: MySQL is the world's most popular open source database. With its proven performance, reliability and ease-of-use, MySQL has become the leading database choice for web-based applications, used by high profile web properties including Facebook, Twitter, YouTube, Yahoo! and many more..
+- title: Logisim
+  url: 'https://www.rollapp.com/app/logisim'
+  class: none
+  id: 9
+  description: Logisim is an educational tool for designing and simulating digital logic circuits. With its simple toolbar interface and simulation of circuits as you build them, it is simple enough to facilitate learning the most basic concepts related to logic circuits.
+- title: sim8085
+  url: 'https://8085simulator.codeplex.com/'
+  class: none
+  id: 10
+  description: micro syllabus for first year first semester of BSCcsit.
+- title: Octave
+  url: 'https://www.rollapp.com/app/octave'
+  class: none
+  id: 11
+  description: GNU Octave is a high-level language, primarily intended for numerical computations. It provides a convenient command line interface for solving linear and nonlinear problems numerically, and for performing other numerical experiments using a language that is mostly compatible with Matlab. It may also be used as a batch-oriented language.
+- title: Pspp
+  url: 'https://www.rollapp.com/app/pspp'
+  class: none
+  id: 12
+  description: GNU PSPP is a program for statistical analysis of sampled data. It is a free as in freedom replacement for the proprietary program SPSS, and appears very similar to it with a few exceptions.
+- title: Code blocs
+  url: 'http://www.codeblocks.org/'
+  class: none
+  id: 13
+  description: Code::Blocks is a free C, C++ and Fortran IDE built to meet the most demanding needs of its users. It is designed to be very extensible and fully configurable.
