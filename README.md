@@ -5,3 +5,4 @@ todo list
 - [x] tej shahi speech
 - [ ] rollapp.com links for all apps
 - [ ] linux with all necessar apps
+- [ ] merchandise page (stickers, tshirt)
